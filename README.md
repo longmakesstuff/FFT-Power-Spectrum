@@ -6,20 +6,7 @@ A high-quality demonstration of the application can be found at
 
 ![](data/output-opt.gif)
 
-This program utilized discrete Fourier transformation to obtain the time-frequency-domain of a audio file. The result
-can be explained as following:
-
-- The top part of the program, we can see the raw time-amplitude data as it can be found in any `WAV` file. While this is the
-  intuitive way for how we think of  data, it is not very informative.
-- The bottom part of the program is the output of the algorithm, combined with some waterfall effect. This parts display the
-  heart of DFT or Fourier Transformation in general, which allows us to decompose the data into their frequencies and how much each
-  frequency contributes to the final sound. This kind of data has many nice attributes to which allow us to deploy many other tools
-  from signal processing, machine learning and pattern recognition to wrangle data in a more effective way.
-
-This program is on the other hand just a nice artistic demonstration of the algorithm, notice how much better we can see which piano key
-is being pressed, which is almost impossible to achieve with time-amplitude.
-
-### Build and run it yourself (C++11 / SFML 2.5)
+### Build and run (C++11 / SFML 2.5)
 
 Install the dependencies
 
@@ -43,7 +30,7 @@ cmake ..
 make -j8
 ```
 
-And play any `WAV` song you want with 
+And play any `WAV` file with 
 
 ```
 ./bin/main [song-path.wav]
