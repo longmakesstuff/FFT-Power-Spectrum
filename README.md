@@ -37,7 +37,4 @@ And play any `WAV` file with
 ```
 
 ### References
-- Louisa Renz's bachelor thesis - University Tübingen
 - [RosettaCode's Cooley-Tukey FFT](https://rosettacode.org/wiki/Fast_Fourier_transform)
-- [Hann's function](https://en.wikipedia.org/wiki/Hann_function)
-- [Fourier transform for dummies](https://math.stackexchange.com/questions/1002/fourier-transform-for-dummies)
